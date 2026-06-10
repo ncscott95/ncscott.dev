@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 # Games by Nathan Scott
