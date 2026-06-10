@@ -1,1 +1,7 @@
-Games by Nathan Scott
+---
+layout: default
+---
+
+# Games by Nathan Scott
+
+Sample text
