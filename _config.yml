@@ -1,3 +1,12 @@
-title: My Awesome Jekyll Site
-description: A static site built with Jekyll and GitHub Pages
-theme: jekyll-theme-cayman
+title: My Lightspeed Site
+description: A fast, simple Jekyll site
+
+# Tell GitHub Pages to fetch the theme from the repository you linked
+remote_theme: tajacks/lightspeed
+
+# Enable the plugins that the Lightspeed theme requires
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
