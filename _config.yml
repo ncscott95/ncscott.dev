@@ -3,11 +3,5 @@ description: A fast, simple Jekyll site
 
 remote_theme: tajacks/lightspeed
 
+url: "https://ncscott95.github.io"
 baseurl: "/ncscott.dev"
-url: ""
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate-v2
