@@ -1,7 +1,14 @@
-title: My Lightspeed Site
-description: A fast, simple Jekyll site
+title: Games by Nathan Scott
+headline: asdf
+description: ghjkl
 
 remote_theme: tajacks/lightspeed
 
 url: "https://ncscott95.github.io"
 baseurl: "/ncscott.dev"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate-v2

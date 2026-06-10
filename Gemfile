@@ -1,12 +1,19 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", "~> 3.9.5"
+gem "jekyll-remote-theme"
+gem "jekyll-seo-tag"
+gem "jekyll-feed"
+gem "kramdown-parser-gfm"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme", group: :jekyll_plugins
+gem "webrick"
+gem "base64"
+gem "bigdecimal"
+gem "rexml"
+gem "logger"
+gem "csv"
+gem "faraday-retry"
 
 group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
   gem "jekyll-paginate-v2"
 end
