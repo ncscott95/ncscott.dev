@@ -1,10 +1,11 @@
 title: My Lightspeed Site
 description: A fast, simple Jekyll site
 
-# Tell GitHub Pages to fetch the theme from the repository you linked
 remote_theme: tajacks/lightspeed
 
-# Enable the plugins that the Lightspeed theme requires
+baseurl: "/ncscott.dev"
+url: ""
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
