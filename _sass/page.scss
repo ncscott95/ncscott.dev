@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono');
+
 /* Style inspiration and settings adapted from https://github.com/jgthms/web-design-in-4-minutes*/
 
 /* Base */
@@ -9,6 +12,16 @@ html {
 
 body {
   font-family: "Courier New", "Helvetica", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* 03 Spacing */
@@ -28,7 +41,7 @@ body {
 
 div.main-content h2 {
   padding-top: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 header h1, h5 {
@@ -62,7 +75,7 @@ code {
 /* 06 Primary color */
 
 a {
-  color: #7e92a2;
+  color: #58bdd6;
 }
 
 /* 07 Secondary colors */
