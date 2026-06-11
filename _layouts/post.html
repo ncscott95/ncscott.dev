@@ -8,4 +8,14 @@ layout: default
 
 <div class="post-content">
   {{ content }}
+
+  <div class="post-navigation">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="previous-post float-left">Previous: {{ page.previous.title }}</a>
+    {% endif %}
+
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="next-post float-right">Next: {{ page.next.title }}</a>
+    {% endif %}
+  </div>
 </div>

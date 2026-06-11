@@ -1,8 +1,18 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
   // Hide clutter elements on mobile
-  .mobile-hide{ display: none !important; }
+  .mobile-hide {
+    display: none !important;
+  }
 
   // Don't split footer text
-  .footer-text{ float: left !important;}
+  .footer-text {
+    float: left !important;
+  }
+
+  .post-navigation a {
+    display: block;
+    float: none !important;
+    max-width: 100% !important;
+  }
 }
