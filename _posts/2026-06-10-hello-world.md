@@ -4,7 +4,7 @@ title: "Hello World!"
 date: 2026-06-10
 ---
 
-[Home](/ncscott.dev/)
+[Home]({{ site.baseurl }}/)
 
 Welcome to my brand new website using the Lightspeed theme!
 

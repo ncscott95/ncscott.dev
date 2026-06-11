@@ -1,11 +1,10 @@
 title: Games by Nathan Scott
-headline: asdf
-description: ghjkl
+description: An indie game dev blog and portfolio by Nathan Scott.
 
 remote_theme: tajacks/lightspeed
 
-url: "https://ncscott95.github.io"
-baseurl: "/ncscott.dev"
+url: "https://ncscott.dev"
+baseurl: ""
 
 plugins:
   - jekyll-remote-theme
