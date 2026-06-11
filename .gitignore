@@ -15,3 +15,7 @@ Thumbs.db
 
 # Log files
 *.log
+
+# Test posts
+_posts/testing/
+_posts/drafts/
