@@ -10,12 +10,30 @@ layout: default
   {{ content }}
 
   <div class="post-navigation">
-    {% if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}" class="previous-post float-left">Previous: {{ page.previous.title }}</a>
-    {% endif %}
+    {% if page.category %}
+      {% assign cat_posts = site.posts | where: "published", true | where: "category", page.category %}
 
-    {% if page.next %}
-      <a href="{{ page.next.url | relative_url }}" class="next-post float-right">Next: {{ page.next.title }}</a>
+      {% for p in cat_posts %}
+        {% if p.url == page.url %}
+          {% assign prev_idx = forloop.index0 | plus: 1 %}
+          {% assign next_idx = forloop.index0 | minus: 1 %}
+
+          {% if next_idx >= 0 %}
+            {% assign next_post = cat_posts[next_idx] %}
+          {% endif %}
+          {% if prev_idx < cat_posts.size %}
+            {% assign prev_post = cat_posts[prev_idx] %}
+          {% endif %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% if prev_post %}
+        <a href="{{ prev_post.url | relative_url }}" class="previous-post float-left">Previous: {{ prev_post.title }}</a>
+      {% endif %}
+      {% if next_post %}
+        <a href="{{ next_post.url | relative_url }}" class="next-post float-right">Next: {{ next_post.title }}</a>
+      {% endif %}
     {% endif %}
   </div>
 </div>

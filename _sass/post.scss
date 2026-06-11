@@ -16,6 +16,10 @@
   padding-top: 20px;
 }
 
+.post-content p + p {
+  margin-top: 10px;
+}
+
 .post-navigation {
   padding-top: 20px;
   display: flow-root;
