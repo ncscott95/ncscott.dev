@@ -102,6 +102,7 @@ DEPENDENCIES
   jekyll-seo-tag
   kramdown-parser-gfm
   logger
+  openssl
   rexml
   webrick
 

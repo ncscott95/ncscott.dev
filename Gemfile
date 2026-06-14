@@ -13,6 +13,7 @@ gem "rexml"
 gem "logger"
 gem "csv"
 gem "faraday-retry"
+gem "openssl"
 
 group :jekyll_plugins do
   gem "jekyll-paginate-v2"
