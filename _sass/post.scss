@@ -28,3 +28,30 @@
 .post-navigation a {
   max-width: 300px;
 }
+
+/* Images */
+
+.thumbnail-link {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+img.thumbnail {
+  display: block;
+  max-height: 350px;
+  padding-bottom: 15px;
+}
+
+.img-caption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+hr.game-separator {
+  margin: 15px 0;
+}

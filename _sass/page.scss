@@ -40,8 +40,12 @@ h6 {
   line-height: 30px;
 }
 
-div.main-content h2 {
+div.main-content h2:first-child {
   padding-top: 15px;
+}
+
+div.main-content h2 {
+  padding-top: 30px;
   padding-bottom: 15px;
 }
 
@@ -85,4 +89,10 @@ h1,
 h2,
 strong {
   font-weight: 500;
+}
+
+/* Other styles */
+
+ul.recent-devlogs {
+  min-height: 150px;
 }

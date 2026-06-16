@@ -1,4 +1,6 @@
 - name: Home
   link: /
+- name: Game Jams
+  link: /game-jams/
 - name: Summer 2026
   link: /summer-2026/
