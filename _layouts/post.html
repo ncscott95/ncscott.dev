@@ -29,10 +29,10 @@ layout: default
       {% endfor %}
 
       {% if prev_post %}
-        <a href="{{ prev_post.url | relative_url }}" class="previous-post float-left">Previous: {{ prev_post.title }}</a>
+        <a href="{{ prev_post.url | relative_url }}" class="previous-post float-left">← {{ prev_post.title }}</a>
       {% endif %}
       {% if next_post %}
-        <a href="{{ next_post.url | relative_url }}" class="next-post float-right">Next: {{ next_post.title }}</a>
+        <a href="{{ next_post.url | relative_url }}" class="next-post float-right">{{ next_post.title }} →</a>
       {% endif %}
     {% endif %}
   </div>
