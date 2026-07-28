@@ -2,7 +2,7 @@
   {% assign cat_posts = site.posts | where: "published", true | where: "category", page.game_category %}
   {% for post in cat_posts %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
+      {{ post.date | date: "[%Y-%m-%d]" }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
