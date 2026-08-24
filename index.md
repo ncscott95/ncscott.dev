@@ -13,7 +13,7 @@ featured: "frogolf"
   {% endif %}
 </div>
 
-## Recent Devlogs
+## Latest Devlogs
 
 <ul class="recent-devlogs">
   {% assign published_posts = site.posts | where_exp: "post", "post.published == true" %}
