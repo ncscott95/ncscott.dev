@@ -6,6 +6,7 @@ link: https://valius95.itch.io/tethered-spirit
 image: /images/tethered-spirit-thumbnail.png
 caption: "Tethered Spirit thumbnail by Tamika Hsieh"
 jam: "TritonWare Fall 2024"
+duration: "2 weeks"
 ---
 
 <!-- *"Tethered Sprit is a 2D fantasy escape room game where the player’s body and spirit have been severed and locked away in two separate rooms. The player must solve a series of puzzles to complete the ritual that will tether their spirit back to their body, allowing them to escape."* -->

@@ -6,6 +6,7 @@ link: https://faernis.itch.io/frogolf
 image: /images/frogolf-thumbnail.png
 caption: "frogolf thumbnail by Jess Yang"
 jam: "teeny-tinyware Spring 2026"
+duration: "24 hours"
 ---
 
 <!-- *"the froggiest game of golf!"* -->

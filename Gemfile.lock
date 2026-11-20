@@ -42,6 +42,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-redirect-from (0.12.1)
+      jekyll (~> 3.3)
     jekyll-remote-theme (0.5.1)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
@@ -98,6 +100,7 @@ DEPENDENCIES
   jekyll (~> 3.9.5)
   jekyll-feed
   jekyll-paginate-v2
+  jekyll-redirect-from
   jekyll-remote-theme
   jekyll-seo-tag
   kramdown-parser-gfm
@@ -126,6 +129,7 @@ CHECKSUMS
   jekyll (3.9.5) sha256=c22a95f18036c49f6549afdc28787c4d99fc6f26a1af3e867578c918ec9a66f0
   jekyll-feed (0.17.0) sha256=689aab16c877949bb9e7a5c436de6278318a51ecb974792232fd94d8b3acfcc3
   jekyll-paginate-v2 (3.0.0) sha256=001be6c1963caa41fed9c2f43b0d47201defa0395381eb8830487c1c2fc4f4e3
+  jekyll-redirect-from (0.12.1)
   jekyll-remote-theme (0.5.1) sha256=364a441273f7fb5a009aac0c7e0d9a75b8dd2160b48ebaac16c3bc4086474b0a
   jekyll-sass-converter (1.5.2) sha256=53773669e414dc3bb070113befacb808576025a28cfa4a4accc682e90a9c1101
   jekyll-seo-tag (2.9.0) sha256=0260015a8e1df9bf195cdfb0c675b7b2883fd8cbf12556e1c1cbe36a831c6852

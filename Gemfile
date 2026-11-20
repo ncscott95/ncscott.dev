@@ -4,6 +4,7 @@ gem "jekyll", "~> 3.9.5"
 gem "jekyll-remote-theme"
 gem "jekyll-seo-tag"
 gem "jekyll-feed"
+gem "jekyll-redirect-from"
 gem "kramdown-parser-gfm"
 
 gem "webrick"

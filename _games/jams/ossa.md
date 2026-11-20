@@ -6,6 +6,7 @@ link: https://valius95.itch.io/ossa
 image: /images/ossa-thumbnail.png
 caption: "OSSA thumbnail by Jolina Leong"
 jam: "teeny-tinyware Fall 2025"
+duration: "24 hours"
 ---
 
 <!-- *"Do you like __BONES__?*

@@ -1,6 +1,10 @@
 - name: Home
   link: /
+- name: Windbinder
+  link: /windbinder/
+- name: VGDC
+  link: /vgdc/
 - name: Game Jams
   link: /game-jams/
-- name: Summer 2026
-  link: /summer-2026/
+- name: Devlogs
+  link: /devlogs/

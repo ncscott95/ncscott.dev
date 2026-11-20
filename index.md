@@ -4,6 +4,12 @@ title: Home
 featured: "mis-steaks were made."
 ---
 
+## About Me
+
+Hello! I'm Nathan Scott, and I am a programmer and indie game developer. I am currently a student at UC San Diego studying Computer Science, and I am a Programming Lead for the school's Video Game Development Club (VGDC). 
+
+Game development is something of a lifelong passion of mine; I've been making video games as a hobby since I first learned to program on Scratch in elementary school, slowly growing over time to make Python text adventures and Minecraft mods in middle and high school. Nowadays, most of my work is in the Unity game engine, and I consequently do most of my programming in C#. More recently, I've begun branching out into other disciplines, picking up beginner skills in Aseprite, FL Studio, and Photoshop along the way. 
+
 ## Featured Game
 
 <div class="game-post-wrapper" markdown="0">

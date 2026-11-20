@@ -6,6 +6,7 @@ link: https://faernis.itch.io/racing-the-steaks
 image: /images/mis-steaks-thumbnail.png
 caption: "mis-steaks were made. thumbnail by Jess Yang"
 jam: "TGDC Fall 2026"
+duration: "3 days"
 ---
 
 <!-- *"ever wanted to take care of writhing, bouncy, gelatinous, dubiously sentient chunks of meat? well, now you can!"* -->
