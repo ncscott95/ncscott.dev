@@ -9,7 +9,8 @@ permalink: /game-jams/
 
 <div markdown="0">
 {% assign cat_games = site.games | where: "published", true | where: "category", page.game_category %}
-{% for game in cat_games %}
+{% assign sorted_cat_games = cat_games | sort_natural: "title" %}
+{% for game in sorted_cat_games %}
     {% include game-list-element.html %}
 {% endfor %}
 </div>

@@ -1,16 +1,26 @@
 ---
 layout: default
 title: Home
-featured: "frogolf"
+featured: "mis-steaks were made."
 ---
 
 ## Featured Game
 
 <div class="game-post-wrapper" markdown="0">
   {% assign game = site.games | where: "title", page.featured | first %}
-  {% if game %}
-    {% include game-list-element.html %}
-  {% endif %}
+  <div class="game-heading">
+    <h3>{{ game.title }}</h3>
+    <p class="game-jam">{{ game.jam }}</p>
+  </div>
+  <div>
+    <a href="{{ game.link }}" target="_blank" class="thumbnail-link">
+      <img class="thumbnail" src="{{ game.image | relative_url }}">
+    </a>
+    <p class="img-caption">
+      {{ game.caption }}
+    </p>
+  </div>
+  {{ game.content }}
 </div>
 
 ## Latest Devlogs

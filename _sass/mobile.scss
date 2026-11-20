@@ -5,6 +5,11 @@
     display: none !important;
   }
 
+  .game-list-layout {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+
   // Don't split footer text
   .footer-text {
     float: left !important;
@@ -14,5 +19,9 @@
     display: block;
     float: none !important;
     max-width: 100% !important;
+  }
+
+  .game-heading {
+    display: inline;
   }
 }

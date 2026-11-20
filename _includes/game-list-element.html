@@ -1,10 +1,24 @@
-<h3>{{ game.title }}</h3>
-<div>
-  <a href="{{ game.link }}" target="_blank" class="thumbnail-link">
-    <img class="thumbnail" src="{{ game.image | relative_url }}">
-  </a>
-  <p class="img-caption">
-    {{ game.caption }}
-  </p>
-</div>
-{{ game.content }}
+<article class="game-list-element">
+  <div class="game-heading">
+    <h3>{{ game.title }}</h3>
+    <p class="game-jam">{{ game.jam }}</p>
+  </div>
+
+  <div class="game-list-layout">
+
+    <div class="game-thumbnail-block">
+      <a href="{{ game.link }}" target="_blank" class="thumbnail-link">
+        <img class="thumbnail" src="{{ game.image | relative_url }}" alt="{{ game.title }} thumbnail">
+      </a>
+      <p class="img-caption">
+        {{ game.caption }}
+      </p>
+    </div>
+
+    <div class="game-description">
+      {{ game.content }}
+    </div>
+
+  </div>
+
+</article>
