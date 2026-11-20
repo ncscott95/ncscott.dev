@@ -3,7 +3,7 @@ title: "Tethered Spirit"
 category: game-jams
 published: true
 link: https://valius95.itch.io/tethered-spirit
-image: /images/tethered-spirit-thumbnail.png
+image: /images/thumbnails/tethered-spirit-thumbnail.png
 caption: "Tethered Spirit thumbnail by Tamika Hsieh"
 jam: "TritonWare Fall 2024"
 duration: "2 weeks"

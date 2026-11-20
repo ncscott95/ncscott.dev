@@ -3,7 +3,7 @@ title: "OSSA"
 category: game-jams
 published: true
 link: https://valius95.itch.io/ossa
-image: /images/ossa-thumbnail.png
+image: /images/thumbnails/ossa-thumbnail.png
 caption: "OSSA thumbnail by Jolina Leong"
 jam: "teeny-tinyware Fall 2025"
 duration: "24 hours"

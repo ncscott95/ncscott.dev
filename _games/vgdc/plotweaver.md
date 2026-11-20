@@ -3,7 +3,7 @@ title: "Plotweaver"
 category: vgdc
 published: true
 link: https://valius95.itch.io/plotweaver
-image: /images/plotweaver-thumbnail.png
+image: /images/thumbnails/plotweaver-thumbnail.png
 caption: "Plotweaver thumbnail by Cass Adefuin"
 jam: "Jan. 2026 – Mar. 2026"
 ---

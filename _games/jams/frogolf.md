@@ -3,7 +3,7 @@ title: "frogolf"
 category: game-jams
 published: true
 link: https://faernis.itch.io/frogolf
-image: /images/frogolf-thumbnail.png
+image: /images/thumbnails/frogolf-thumbnail.png
 caption: "frogolf thumbnail by Jess Yang"
 jam: "teeny-tinyware Spring 2026"
 duration: "24 hours"

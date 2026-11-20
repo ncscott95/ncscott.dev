@@ -3,7 +3,7 @@ title: "Mariposa"
 category: vgdc
 published: true
 link: https://store.steampowered.com/app/3991120/Mariposa/
-image: /images/mariposa-thumbnail.png
+image: /images/thumbnails/mariposa-thumbnail.png
 caption: "Mariposa thumbnail by Chanel Lim"
 jam: "Jan. 2025 – Sep. 2025"
 ---

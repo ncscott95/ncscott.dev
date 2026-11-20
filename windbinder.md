@@ -4,7 +4,7 @@ title: Summer 2026 Devlogs
 permalink: /windbinder/
 redirect_from:
   - /summer-2026/
-image: /images/windbinder-thumbnail.png
+image: /images/thumbnails/windbinder-thumbnail.png
 ---
 
 ## Windbinder
